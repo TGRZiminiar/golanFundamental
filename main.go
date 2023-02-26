@@ -7,16 +7,23 @@ import (
 	"testing"
 	"time"
 
+	"github.com/TGRZiminiar/golangFundemaltal/concurrency"
 	genericlist "github.com/TGRZiminiar/golangFundemaltal/genericList"
 	howtocontext "github.com/TGRZiminiar/golangFundemaltal/howToContext"
 	safemap "github.com/TGRZiminiar/golangFundemaltal/safeMap"
 )
 
+
+
 func main() {
 	
 	// TestGenericList();
 	// TestSafeMap(&testing.T{});
-	TestContext();
+	// TestContext();
+
+	// concurrency.ExampleConCurrency();
+	concurrency.ExampleConCurrency2();
+
 }
 
 func TestContext() {
